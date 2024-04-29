@@ -1,15 +1,9 @@
 package com.example.restTest.controller;
 
-import com.example.restTest.model.Drama;
-import com.example.restTest.model.DramaRepository;
-import com.example.restTest.model.DramaRequestDto;
-import com.example.restTest.service.DramaService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @RequiredArgsConstructor
 @RestController
